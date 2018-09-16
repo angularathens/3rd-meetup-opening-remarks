@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/angular-athens.css">
+	<link rel="stylesheet" href="css/theme/simple.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section class="intro" data-background-transition="slide" data-background="lib/angular/img/acropolis2.jpeg">
+				<h3 style="margin-bottom: 200px; padding: 10px; color: azure">Welcome to the #3 Angular Athens meetup</h3>
+			</section>
+			<section>
+				<h3>Goals</h2>
+					<ul>
+						<li>bring Angularians together, create an active community around Angular in Athens</li>
+						<li>exchange knowledge, learn how other companies work, best practices</li>
+						<li>networking</li>
+					</ul>
+			</section>
+			<section>
+				<h3>We need your help</h2>
+					<ul>
+						<li>
+							If you want to share something cool,
+							<a href="http://bit.ly/2kjOwIP" target="_blank">submit-a-talk</a>
+						</li>
+						<li>
+							Sponsors: angularathens@gmail.com
+						</li>
+						<li>Fill out our
+							<a href="https://goo.gl/vZSdCE" target="_blank">poll</a>, so we can select the best presentations for you</li>
+						<li>Fill out our
+							<a href="https://angularathens.typeform.com/to/n4avGu" target="_blank">post event survey</a>
+						</li>
+					</ul>
+			</section>
+			<section class="column">
+				<header class="logo">
+					<img class="logo plain" data-src="/3rd-meetup-opening-remarks/lib/angular/img/angularathens.png">
+					<small>Angular Athens #3 meetup</small>
+				</header>
+				<main>
+					<div class="row">
+						<img class="plain sponsors" data-src="/3rd-meetup-opening-remarks/lib/angular/img/trasys.jpg">
+						<img class="plain sponsors" data-src="/3rd-meetup-opening-remarks/lib/angular/img/intrasoft.png">
+						<img class="plain sponsors" data-src="/3rd-meetup-opening-remarks/lib/angular/img/codehub.png">
+					</div>
+					<div class="row">
+						<img class="plain sponsors" data-src="/3rd-meetup-opening-remarks/lib/angular/img/sae.png">
+						<img class="plain sponsors" data-src="/3rd-meetup-opening-remarks/lib/angular/img/plexearth.png">
+						<img class="plain sponsors" data-src="/3rd-meetup-opening-remarks/lib/angular/img/anixe.png">
+					</div>
+				</main>
+			</section>
+			<section class="full-column">
+				<header class="logo">
+					<img class="logo plain" data-src="/3rd-meetup-opening-remarks/lib/angular/img/angularathens.png">
+					<small>Angular Athens #3 meetup</small>
+				</header>
+				<main>
+					<ul style="font-size: 38px">
+						<li>Angular Router: from the basics of navigation and routing to lazy loading, scaling and architecture -
+							Giannis
+							Smirnios & George Sisko</li>
+						<li>Authentication mechanism using JWT - Fanis Prodromou</li>
+						<li>Free pass for a Code.Learn program (Code.Hub) - giveaway</li>
+						<li>Angular: Up and Running: Learning Angular, Step by Step (O'Reilly Media) - giveaway</li>
+						<li>Networking, food-beers</li>
+					</ul>
+				</main>
+				<footer class="row">
+					<img class="plain sponsors" data-src="/3rd-meetup-opening-remarks/lib/angular/img/intrasoft.png">
+					<img class="plain sponsors" data-src="/3rd-meetup-opening-remarks/lib/angular/img/trasys.jpg">
+					<img class="plain sponsors" data-src="/3rd-meetup-opening-remarks/lib/angular/img/plexearth.png">
+					<img class="plain sponsors" data-src="/3rd-meetup-opening-remarks/lib/angular/img/sae.png">
+					<img class="plain sponsors" data-src="/3rd-meetup-opening-remarks/lib/angular/img/codehub.png">
+					<img class="plain sponsors" data-src="/3rd-meetup-opening-remarks/lib/angular/img/anixe.png">
+				</footer>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		Reveal.configure({ pdfMaxPagesPerSlide: 1 })
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+			transition: 'slide',
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/zoom-js/zoom.js', async: true },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+			]
+		});
+	</script>
+</body>
+
+</html>

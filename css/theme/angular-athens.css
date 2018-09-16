@@ -1,0 +1,70 @@
+.reveal .slides > section.intro,
+.reveal .slides > section > section.intro {
+   background-color: #202d4fd9;
+   height: 90%;
+   display: flex !important;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .reveal .slides > section.column
+ .reveal .slides > section div.column {
+	display: flex !important;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.reveal .slides > section.full-column {
+	height: 100%;
+	display: flex !important;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.reveal .slides > section.row
+.reveal .slides > section div.row {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+}
+
+.reveal .slides > section main {
+	margin-top: 20px;
+ }
+
+
+ .reveal .slides > section header {
+	display: flex !important;
+ }
+
+ .reveal .slides > section header > img {
+	width: 50px;
+	height: 50px;
+	align-self: flex-start;
+	background: none;
+ }
+
+ .reveal .slides > section img.sponsors {
+	height: 120px;
+	padding: 10px 40px;
+ }
+
+ .reveal .slides > section > footer.row {
+	border-top: 1px solid #c1bebe;
+ }
+
+ .reveal .slides > section > header {
+	align-items: center;
+	border-bottom: 1px solid #c1bebe;
+ }
+
+ .reveal .slides > section > footer.row > img.sponsors {
+	height: 48px;
+    padding: 10px 20px
+ }
+
+
+ 
+
+
